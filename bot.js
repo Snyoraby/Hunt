@@ -70,10 +70,10 @@ client.on('message', message => {
 if (message.content === prefix+'hunt') {
      let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 100; x++)
-    setInterval(() => {
- message.channel.send(`hy`).then(() => count++);
-}, 10000);
+      for(let x = 0; x < 100; x++) {
+        message.channel.send(` s1 $hunt gods `)
+          .then(m => {
+            count++;
           })
           
         }
