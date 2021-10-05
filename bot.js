@@ -196,7 +196,7 @@ if (message.content === prefix+'hunt') {
 
 client2.on('message', message => {
 if (message.content === prefix+'roll') {
-      let count = 20000;
+      let count = 50000;
       let ecount = 0;
       for(let x = 0; x < 100; x++) {
         message.channel.send(` s1 $roll `)
