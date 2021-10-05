@@ -14,10 +14,10 @@ client.login(process.env.TOKEN);
 
 client.on('ready', async() => {
 var server = "894597075285712957"; 
-var channel = " ";
+var channel = " 894973008282796053 ";
     setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('s1 $hunt')
-    },1000);
+    client.guilds.get(server).channels.get(channel).send('s1 $hunt gods ')
+    },29000);
 });
           
     
