@@ -68,7 +68,10 @@ client6.on('message', message => {
 
 client.on('message', message => {
 if (message.content === prefix+'hunt') {
-      setInterval(() => {
+     let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 100; x++)
+    setInterval(() => {
  message.channel.send(`hy`).then(() => count++);
 }, 10000);
           })
@@ -79,7 +82,7 @@ if (message.content === prefix+'hunt') {
 
 client2.on('message', message => {
 if (message.content === prefix+'roll') {
-      let count = 50000;
+      let count = 0;
       let ecount = 0;
       for(let x = 0; x < 100; x++) {
         message.channel.send(` s1 $roll `)
